@@ -1,0 +1,9 @@
+[package]
+name = "event_manager"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+icecream = "=0.1.0"
+lazy_static = "1.5.0"
+tokio = { version = "1.39.1", features = ["full", "macros"] }
